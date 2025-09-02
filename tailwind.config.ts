@@ -61,6 +61,16 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom app colors
+				'app-orange': {
+					DEFAULT: 'hsl(var(--app-orange))',
+					light: 'hsl(var(--app-orange-light))',
+					dark: 'hsl(var(--app-orange-dark))'
+				},
+				'app-gray': {
+					DEFAULT: 'hsl(var(--app-gray))',
+					dark: 'hsl(var(--app-gray-dark))'
 				}
 			},
 			borderRadius: {
