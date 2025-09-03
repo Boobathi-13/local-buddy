@@ -36,6 +36,48 @@ npm i
 npm run dev
 ```
 
+**Mobile App Development**
+
+This project now supports mobile app development using Capacitor. Here's how to work with the mobile version:
+
+1. **Setup Development Environment**
+   ```sh
+   # Install dependencies
+   npm install
+   
+   # Build and sync with mobile
+   npm run cap:serve
+   ```
+
+2. **Development Workflow**
+   - For live development:
+     ```sh
+     npm run cap:dev
+     ```
+   - For production build:
+     ```sh
+     npm run cap:build
+     ```
+   - After making changes:
+     ```sh
+     npm run build
+     npx cap sync
+     ```
+
+3. **Android Studio**
+   - Open Android project:
+     ```sh
+     npx cap open android
+     ```
+   - Build APK: Build → Generate Signed Bundle/APK
+   - Test on emulator or real device
+
+4. **Testing on Device**
+   - Enable USB debugging on your Android device
+   - Connect via USB
+   - Select your device in Android Studio
+   - Click Run
+
 **Edit a file directly in GitHub**
 
 - Navigate to the desired file(s).
